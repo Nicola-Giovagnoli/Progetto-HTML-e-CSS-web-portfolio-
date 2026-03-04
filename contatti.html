@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contatta Nicola Giovagnoli tramite il form dedicato."
+    />
+    <title>Contattami | Portfolio Nicola Giovagnoli</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contattami | Nicola Giovagnoli" />
+    <meta
+      property="og:description"
+      content="Invia un messaggio tramite il modulo di contatto."
+    />
+    <meta property="og:image" content="https://tuodominio.com/cover.jpg" />
+    <meta property="og:url" content="https://tuodominio.com/contatti.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap + Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="sticky-top bg-dark">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark container"
+        aria-label="Main navigation"
+      >
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img
+            src="assets/images/logo.png"
+            alt="Logo Nicola Giovagnoli"
+            height="30"
+            class="me-2"
+          />
+          Nicola Giovagnoli
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="bi bi-house-door-fill"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html"
+                ><i class="bi bi-briefcase-fill"></i> Curriculum</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contatti.html"
+                ><i class="bi bi-envelope-fill"></i> Contattami</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-4 bg-secondary bg-opacity-10">
+      <img
+        src="assets/images/hero-image.png"
+        alt="hero image Nicola Giovagnoli"
+        class="hero-img img-fluid mb-3"
+      />
+      <h1><i class="bi bi-envelope-fill"></i> Contattami</h1>
+      <p class="lead">Compila il form per inviarmi un messaggio</p>
+    </section>
+
+    <!-- Contact Form -->
+    <main class="py-5">
+      <div class="container d-flex justify-content-center">
+        <form
+          class="d-flex flex-column gap-3"
+          action="#"
+          method="post"
+          style="max-width: 550px; width: 100%"
+          aria-label="Modulo di contatto per Nicola Giovagnoli"
+        >
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            class="form-control"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            required
+          />
+
+          <label for="messaggio">Messaggio</label>
+          <textarea
+            id="messaggio"
+            name="messaggio"
+            rows="5"
+            class="form-control"
+            required
+          ></textarea>
+
+          <button
+            type="submit"
+            class="btn btn-info mt-2"
+            aria-label="Invia messaggio"
+          >
+            <i class="bi bi-send-fill"></i> Invia
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 text-center">
+      <p>© 2025 Nicola Giovagnoli</p>
+      <div class="footer-social">
+        <a
+          href="https://www.linkedin.com/in/nicola-giovagnoli-59a246158/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn Nicola Giovagnoli"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/Nicola-Giovagnoli"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub Nicola Giovagnoli"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/nicola_giovagnoli/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram Nicola Giovagnoli"
+          ><i class="bi bi-instagram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
